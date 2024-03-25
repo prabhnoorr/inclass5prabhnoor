@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+       
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <title>contact</title>
+
+  
+    </head> 
+    <body>
+
+    <div class="structural">
+        <header> 
+            <h1> this is my h1 tag</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">home</a>
+                   
+                </li>
+                <li> <a href="contact.html">contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section>
+        <main>
+            <h2>contact</h2>
+            <form id="myForm" action="#" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required autofocus>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>What section of PROG1245 are you in?</legend>
+                        <input type="radio" id="sec4" name="sec" value="4" required checked>
+                        <label for="sec4">Section 4</label><br>
+                        <input type="radio" id="sec5" name="sec" value="5" required>
+                        <label for="sec5">Section 5</label><br>
+                        <input type="radio" id="sec8" name="sec" value="8" required>
+                        <label for="sec8">Section 8</label>
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="help">What do you need help with?</label>
+                    <select id="help" name="help" required>
+                        <option value="" selected disabled>Select Option</option>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Both">Both (HTML & CSS)</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4" required></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="human" name="human" value="true" required>
+                    <label for="human">I am a human</label>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+            
+        </main>
+    
+        
+        <aside>
+            <h3> Link list : </h3>
+            <ul>
+                <li><a href="https://www.facebook.com/">facebook</a></li>
+                <li><a href="https://www.conestogac.on.ca/">conestogac</a></li>
+            </ul>
+        </aside>
+    </section>
+        <footer>
+            <p>
+                &copy; Prabhnoor, 2024
+            </p>
+        </footer>
+    </div>
+    </body>
+</html>
+
